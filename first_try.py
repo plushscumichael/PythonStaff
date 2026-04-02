@@ -16,3 +16,6 @@ with open(input(), 'r', encoding='utf-8') as input_file:
         filtered_list = [item[:item.index('(')].replace('def ', ' ').strip() for item in final_list]
 
     print(*filtered_list, sep ='\n')
+
+
+# a new comment
